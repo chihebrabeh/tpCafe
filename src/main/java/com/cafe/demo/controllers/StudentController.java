@@ -13,7 +13,7 @@ import java.util.List;
 @RequestMapping("api/v1/students")
 public class StudentController {
 
-    private static List<Student> STUDENTS = Arrays.asList(
+    private static final List<Student> STUDENTS = Arrays.asList(
             new Student(1, "Chiheb Rabeh"),
             new Student(2, "Hana Bani")
     );
